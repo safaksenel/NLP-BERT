@@ -1,0 +1,19 @@
+# Python cache & environments
+__pycache__/
+*.py[cod]
+.venv/
+env/
+.idea/
+.vscode/
+.DS_Store
+
+# Heavy weights & checkpoints
+*.pth
+*.pt
+*.safetensors
+*.bin
+
+# PyInstaller builds
+build/
+dist/
+*.exe
